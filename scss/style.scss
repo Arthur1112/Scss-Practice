@@ -15,10 +15,20 @@ body {
   line-height: 1.6;
 }
 
+img {
+  width: 100%;
+}
+
 .showcase {
   background-color: $primary-color;
   color: white;
   height: 600px;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .container {
